@@ -1,0 +1,55 @@
+nr: 2019-test
+
+language: de
+
+date: 14.01.2019
+
+subject: "Rechnung"
+
+from:
+  - Rumpel Stilzchen
+  - A Street
+  - Some City
+
+to:
+  - Some Company
+  - Some other street
+  - Another City
+
+taxfree: false
+
+account:
+  bank: Bank B
+
+
+opening:
+  "Content...."
+
+closing:
+  "More content"
+
+billables:
+
+  - type: development
+    date: 25.7.2018
+    description: "fixed that annoying bug"
+    starttime: "09:15"
+    endtime: "17:15"
+    qty: 7.5
+    rate: 100
+
+  - type: consulting
+    occasion: "Meeting with Team in location A"
+    date: 26.7.2018
+    description: "Planning the new architecture"
+    qty: 5
+    rate: 200
+
+expenses:
+
+  - type: Travel expenses
+    occasion: "Meeting with Team in location A"
+    date: 30.7.2018
+    description: "Hotel"
+    sum: 300
+

@@ -1,0 +1,9 @@
+Django==2.1.7
+DateTime==4.3
+PyLaTeX==1.3.0
+pytest==4.0.2
+jinja2==2.10
+latex==0.7.0
+
+
+
